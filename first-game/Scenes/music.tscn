@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cudfniupgihfk"]
+
+[ext_resource type="AudioStream" uid="uid://xyxkydytucbm" path="res://Assets/music/TurboMusica.mp3" id="1_aobim"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+position = Vector2(458, -89)
+stream = ExtResource("1_aobim")
+autoplay = true
+bus = &"Musica"
